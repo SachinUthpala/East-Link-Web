@@ -7,7 +7,7 @@
 
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --black-color: hsl(325, 100%, 60%);
+  --black-color: hsla(325, 100%, 60%, 0);
   --black-color-light: hsl(220, 24%, 15%);
   --black-color-lighten: hsl(220, 20%, 18%);
   --white-color: #fff;
@@ -44,7 +44,6 @@
 body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  background-color: var(--body-color);
 }
 
 ul {
@@ -65,13 +64,30 @@ a {
 
 /*=============== HEADER ===============*/
 .header {
+  color: black;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  background-color: var(--black-color);
+  background-color: #fff;
   box-shadow: 0 2px 16px hsla(220, 32%, 8%, .3);
   z-index: var(--z-fixed);
+
+}
+
+.main{
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.137);
+
+}
+
+
+@media(min-aspect-ratio){
+  .back-vedio{
+    width: 100%;
+    height: 100vh;
+  }
 }
 
 /*=============== NAV ===============*/
@@ -128,6 +144,11 @@ a {
   opacity: 0;
 }
 
+.logo{
+    width: 100px;
+}
+
+
 /* Navigation for mobile devices */
 @media screen and (max-width: 1118px) {
   .nav__menu {
@@ -151,7 +172,7 @@ a {
 }
 
 .nav__link {
-  color: var(--white-color);
+  color: black;
   background-color: var(--black-color);
   font-weight: var(--font-semi-bold);
   padding: 1.25rem 1.5rem;
