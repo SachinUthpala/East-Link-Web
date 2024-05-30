@@ -34,6 +34,7 @@ li {
 	height: 100%;
 	align-items: center;
 	justify-content: space-between;
+	
 }
 
 .nav-container img{
@@ -81,6 +82,7 @@ nav .nav-menu > li {
 nav .nav-menu > li > a {
 	color: #000;
 	transition: all .3s ease;
+	text-transform: uppercase;
 }
 nav .nav-menu > li:hover > a {
 	color: var(--blue);
@@ -177,6 +179,7 @@ nav .nav-menu > li .dropdown-menu .right-section .dropdown-links li a .bx {
 	transition: all.3s ease;
 }
 nav .nav-menu > li .dropdown-menu .right-section .dropdown-links li a h5 {
+	text-transform: uppercase;
 	font-size: 16px;
 	margin-bottom: 6px;
 	transition: all.3s ease;
@@ -196,7 +199,6 @@ nav .nav-menu > li .dropdown-menu .right-section .dropdown-links li a:hover h5 {
 nav .nav-menu > li .dropdown-menu .right-section .dropdown-links li a:hover p {
 	color: #000;
 }
-
 
 
 
