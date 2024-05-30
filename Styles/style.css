@@ -113,6 +113,14 @@ nav .nav-menu > li .dropdown-menu .container {
 	padding: 24px 16px 40px;
 }
 nav .nav-menu > li .dropdown-menu .left-section {
+	display: none;
+	flex-grow: 1;
+	flex-basis: 300px;
+	padding: 10px 0px 0px 10px;
+}
+
+nav .nav-menu > li .dropdown-menu .s-left-section {
+	display: none;
 	flex-grow: 1;
 	flex-basis: 300px;
 	padding: 10px 0px 0px 10px;
@@ -205,6 +213,11 @@ nav .nav-menu > li .dropdown-menu .right-section .dropdown-links li a:hover p {
 
 
 @media screen and (max-width: 576px) {
+
+	nav .nav-menu > li .dropdown-menu .left-section {
+		display: block;
+	}
+
 	nav .nav-menu {
 		position: fixed;
 		top: 0;
