@@ -272,7 +272,11 @@ nav .nav-menu > li .dropdown-menu .right-section .dropdown-links li a:hover p {
 	color: #000;
 }
 
+.Vedios{
+	position: absolute;
+	z-index: -5;
 
+}
 
 @media screen and (max-width: 576px) {
 
