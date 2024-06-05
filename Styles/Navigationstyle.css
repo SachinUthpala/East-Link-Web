@@ -108,11 +108,12 @@ nav .nav-menu > li .dropdown-menu {
 	position: absolute;
 	top: 60px;
 	left: 0;
-	width: 100%;
+	width: 95%;
+	margin-left: 30px;
 	background: #e2e2e2;
 	overflow-y: hidden;
 	max-height: 0;
-	
+	border-radius: 10px;
 	transition: all .3s ease;
 	
 }
