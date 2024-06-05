@@ -227,6 +227,9 @@ body {
   color: #9b9b9b;
 }
 
+
+
+
 @media (width > 768px) {
   nav {
     position: static;
