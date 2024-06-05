@@ -1,8 +1,19 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./Styles/Navigationstyle.css" />
+    <link rel="stylesheet" href="./Styles/HomeStyle.css">
+
+    <!-- 
+      box icons and other
+     -->
+     <link
       href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
       rel="stylesheet"
     />
@@ -10,209 +21,232 @@
       href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./Styles/style.css" />
+     <!-- 
+      end of box icons
+      -->
     <title>East Link | Nawala</title>
   </head>
   <body>
-	
-	
-    <sction class="main">
-
-      <video autoplay muted class="Vedios" >
-        <source src="./Images/web/East Link Logo.mp4">
-      </video>
-
-      <nav>
-        <div class="nav-container">
-          <img src="./Images/web/EL LOGO.png" alt="" />
-          <ul class="nav-menu">
-            <li>
-              <a href="#">Home</a>
-            </li>
-            <!-- 
-              product section
-             -->
-            <li>
-              <a href="#">Products <i class="bx bx-chevron-down"></i></a>
-              <div class="dropdown-menu">
-                <div class="container">
-                  <div class="left-section">
-                    <span class="dropdown-close"><i class='bx bx-chevron-left' ></i> Back</span>
-                  </div>
-                  <div class="right-section">
-                    <h3>Product Catogories</h3>
-                    <ul class="dropdown-links">
-                      <li>
-                        <a href="#">
-                          <i class="bx ri-router-line"></i>
-                          <div>
-                            <h5>Computer Network Products</h5>
-                            <p>
-                              Ethanet Switches , NICs , Media Converters , Copper Cables , Fiber Casbles and many more ...
-                            </p>
-                          </div>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i class="bx ri-server-line"></i>
-                          <div>
-                            <h5>DATA CENTRE & SERVER ROOM PRODUCTS</h5>
-                            <p>
-                              19" Racks , POWER PANELS & IEC POWER CORDS , KVM Switches , Power Monitoring Panels ...
-                            </p>
-                          </div>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i class="bx bx-webcam"></i>
-                          <div>
-                            <h5>Cable Management Products</h5>
-                            <p>
-                              PERFORATED CABLE TRAYS , Cable Ladders , Cable Trunkings , Heavy Deauty Electrical Condudes...
-                            </p>
-                          </div>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i class="bx bx-refresh"></i>
-                          <div>
-                            <h5>TELECOMMUNICATION PRODUCTS</h5>
-                            <p>
-                              Telecommunication Cables , Wire Accessories , Distribution boxs and many more ...
-                            </p>
-                          </div>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i class="bx ri-film-line"></i>
-                          <div>
-                            <h5>Audio And Vedio Products</h5>
-                            <p>
-                              Vedio Spliters , Vedio Switches , Vedio Metrix Switches , Vedio Converters , Cables and many more ..
-                            </p>
-                          </div>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i class="bx bx-cog"></i>
-                          <div>
-                            <h5>Tools and Test Equipments</h5>
-                            <p>
-                              All Network Tools like Punch Downs , Blades , Cable Cutters and All Types of Test Equipments and many more...
-                            </p>
-                          </div>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i class="bx ri-wallet-3-fill"></i>
-                          <div>
-                            <h5>Self Service and Bancking Products</h5>
-                            <p>
-                              All Types of self Service Products like ATMs , CDMs , Wending Mashines and many more...
-                            </p>
-                          </div>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i class="bx ri-tools-fill"></i>
-                          <div>
-                            <h5>Other Products</h5>
-                            <p>
-                              All Network related  Equipments like MISCELLANEOUS PRODUCTS , SERVER CHASIS and many more...
-                            </p>
-                          </div>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
+    <nav>
+      <div class="nav-container">
+        <img src="./Images/web/EL LOGO.png" alt="" style="padding-right: 30px;"/>
+        <ul class="nav-menu">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <!-- 
+            product section
+           -->
+          <li>
+            <a href="#">Products <i class="bx bx-chevron-down"></i></a>
+            <div class="dropdown-menu">
+              <div class="container">
+                <div class="left-section">
+                  <span class="dropdown-close"><i class='bx bx-chevron-left' ></i> Back</span>
+                </div>
+                <div class="right-section">
+                  <h3>Product Catogories</h3>
+                  <ul class="dropdown-links">
+                    <li>
+                      <a href="#">
+                        <i class="bx ri-router-line"></i>
+                        <div>
+                          <h5>Computer Network Products</h5>
+                          <p>
+                            Ethanet Switches , NICs , Media Converters , Copper Cables , Fiber Casbles and many more ...
+                          </p>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="bx ri-server-line"></i>
+                        <div>
+                          <h5>DATA CENTRE & SERVER ROOM PRODUCTS</h5>
+                          <p>
+                            19" Racks , POWER PANELS & IEC POWER CORDS , KVM Switches , Power Monitoring Panels ...
+                          </p>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="bx bx-webcam"></i>
+                        <div>
+                          <h5>Cable Management Products</h5>
+                          <p>
+                            PERFORATED CABLE TRAYS , Cable Ladders , Cable Trunkings , Heavy Deauty Electrical Condudes...
+                          </p>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="bx bx-refresh"></i>
+                        <div>
+                          <h5>TELECOMMUNICATION PRODUCTS</h5>
+                          <p>
+                            Telecommunication Cables , Wire Accessories , Distribution boxs and many more ...
+                          </p>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="bx ri-film-line"></i>
+                        <div>
+                          <h5>Audio And Vedio Products</h5>
+                          <p>
+                            Vedio Spliters , Vedio Switches , Vedio Metrix Switches , Vedio Converters , Cables and many more ..
+                          </p>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="bx bx-cog"></i>
+                        <div>
+                          <h5>Tools and Test Equipments</h5>
+                          <p>
+                            All Network Tools like Punch Downs , Blades , Cable Cutters and All Types of Test Equipments and many more...
+                          </p>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="bx ri-wallet-3-fill"></i>
+                        <div>
+                          <h5>Self Service and Bancking Products</h5>
+                          <p>
+                            All Types of self Service Products like ATMs , CDMs , Wending Mashines and many more...
+                          </p>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="bx ri-tools-fill"></i>
+                        <div>
+                          <h5>Other Products</h5>
+                          <p>
+                            All Network related  Equipments like MISCELLANEOUS PRODUCTS , SERVER CHASIS and many more...
+                          </p>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
                 </div>
               </div>
-            </li>
-            <!-- 
-              end of product section
-             -->
-             
-            <li>
-              <a href="#">What's New</a>
-            </li>
-            <li>
-              <a href="#">FAQ</a>
-            </li>
-            <!-- 
-              support section
-             -->
-             <li>
-              <a href="#">Suports <i class='bx bx-chevron-down' ></i></a>
-              <div class="dropdown-menu">
-                <div class="container">
-                  <div class="left-section">
-                    <span class="dropdown-close"><i class='bx bx-chevron-left' ></i> Back</span>
-                  </div>
-                  <div class="right-section">
-                    <h3>Our Supports</h3>
-                    <ul class="dropdown-links">
-                      
-                      
-                      <li>
-                        <a href="#">
-                          <i class='bx bx-webcam' ></i>
-                          <div>
-                            <h5>Screen Recorder</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur, adipisicing.</p>
-                          </div>
-                        </a>
-                      </li>
-                      
-                      <li>
-                        <a href="#">
-                          <i class='bx bxs-component' ></i>
-                          <div>
-                            <h5>Compressor</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur, adipisicing.</p>
-                          </div>
-                        </a>
-                      </li>
-                      
-                    </ul>
-                  </div>
+            </div>
+          </li>
+          <!-- 
+            end of product section
+           -->
+           
+          <li>
+            <a href="#">What's New</a>
+          </li>
+          <li>
+            <a href="#">FAQ</a>
+          </li>
+          <!-- 
+            support section
+           -->
+           <li>
+            <a href="#">Suports <i class='bx bx-chevron-down' ></i></a>
+            <div class="dropdown-menu">
+              <div class="container">
+                <div class="left-section">
+                  <span class="dropdown-close"><i class='bx bx-chevron-left' ></i> Back</span>
+                </div>
+                <div class="right-section">
+                  <h3>Our Supports</h3>
+                  <ul class="dropdown-links">
+                    
+                    
+                    <li>
+                      <a href="#">
+                        <i class='bx bx-webcam' ></i>
+                        <div>
+                          <h5>Screen Recorder</h5>
+                          <p>Lorem ipsum dolor sit amet, consectetur, adipisicing.</p>
+                        </div>
+                      </a>
+                    </li>
+                    
+                    <li>
+                      <a href="#">
+                        <i class='bx bxs-component' ></i>
+                        <div>
+                          <h5>Compressor</h5>
+                          <p>Lorem ipsum dolor sit amet, consectetur, adipisicing.</p>
+                        </div>
+                      </a>
+                    </li>
+                    
+                  </ul>
                 </div>
               </div>
-            </li>
-             <!-- 
-              end of support section
-              -->
-            <li>
-              <a href="#">About Us</a>
-            </li>
-            <li>
-              <a href="#">Contsct Us</a>
-            </li>
-          </ul>
-          <i class="bx bx-menu toggle-navbar" style="font-size: x-large;"></i>
-        </div>
-      </nav>
+            </div>
+          </li>
+           <!-- 
+            end of support section
+            -->
+          <li>
+            <a href="#">About Us</a>
+          </li>
+          <li>
+            <a href="#">Contsct Us</a>
+          </li>
+        </ul>
+        <i class="bx bx-menu toggle-navbar" style="font-size: x-large;"></i>
+      </div>
+    </nav>
 
-      <div class="content">
-        <div class="textbox">
-          <h2>East - Link <span style="color: #fc0061;"> Engineering </span> <br> Navala , Sri Lanka</h2>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis asperiores,
-             sed cum consequatur rerum culpa? Unde ipsum sunt quia similique fuga architecto itaque consequuntur! 
-            ipsum eaque cum ratione corrupti aliquid harum. Unde aspernatur quod inventore!</p>
-            <a href="#">Learn More ..</a>
-        </div>
-        <div class="imagebox">
-          <img src="./Images/web/router01-removebg-preview.png" alt="">
+
+
+    <div class="container">
+      <div class="container__left">
+        <h1>Welcome To <br><span style="color: #fc0061;">East-Link</span><br>Engineering</h1>
+        <div class="container__btn">
+          <button class="btn">Know More</button>
         </div>
       </div>
-    </sction>
+      <div class="container__right">
+        <div class="images">
+          <img src="./Images/web/istockphoto-1334004294-612x612.jpg" alt="tent-1" class="tent-1" />
+          <img src="./Images/web/istockphoto-2080855674-612x612.jpg" alt="tent-2" class="tent-2" />
+        </div>
+        <div class="content">
+          <h4>International Quality</h4>
+          <h2>Quality Products</h2>
+          <h3>Worthy Products for Lowest Prices</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, odio quod. 
+            Ullam in laboriosam magni tempore explicabo nemo eligendi repudiandae?
+          </p>
+        </div>
+      </div>
+      <div class="location" style="cursor: pointer;" >
+        <span><i class="ri-map-pin-2-fill"></i></span>
+        OUR LOCATION
+      </div>
+      <div class="socials">
+        <span>
+          <a href="#"><i class="ri-facebook-fill"></i></a>
+        </span>
+        <span>
+          <a href="#"><i class="ri-instagram-line"></i></a>
+        </span>
+        <span>
+          <a href="#"><i class="ri-twitter-fill"></i></a>
+        </span>
+      </div>
+    </div>
 
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./JavaScript/main.js"></script>
     <script src="./JavaScript/script.js"></script>
   </body>
 </html>
