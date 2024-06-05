@@ -217,6 +217,15 @@ body {
   text-align: center;
 }
 
+.latestProducts h1{
+  font-size: 35px;
+  margin-bottom: 10px;
+  font-weight: 800;
+}
+
+.latestProducts p{
+  color: #9b9b9b;
+}
 
 @media (width > 768px) {
   nav {
