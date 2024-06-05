@@ -66,3 +66,4 @@ ScrollReveal().reveal(".socials span", {
   delay: 5500,
   interval: 500,
 });
+

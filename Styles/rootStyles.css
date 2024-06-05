@@ -1,0 +1,58 @@
+.preloader{
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right , #e6e6e6 , #ffffff);
+    z-index: 10000;
+}
+
+.preloader img{
+    margin-left: 200px;
+    transform: translate(50% , 50%);
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.remove{
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    .preloader{
+        display: none;
+    }
+}
+
+
+
+/* animation sections */
+/*animation section*/
+.hiddenx {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 2s;
+  }
+  
+  .showx {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+  }
+  
+  .hiddeny {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(100%);
+    transition: all 2s;
+  }
+  
+  .showy {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+  }
+  

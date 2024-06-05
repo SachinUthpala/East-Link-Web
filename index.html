@@ -9,6 +9,7 @@
     />
     <link rel="stylesheet" href="./Styles/Navigationstyle.css" />
     <link rel="stylesheet" href="./Styles/HomeStyle.css">
+    <link rel="stylesheet" href="./Styles/rootStyles.css">
 
     <!-- 
       box icons and other
@@ -27,8 +28,19 @@
     <title>East Link | Nawala</title>
   </head>
   <body>
+    <!-- 
+      pre loade
+     -->
+     
+    <div class="preloader " id="data-preloader">
+      <img src="./Images/web/preloader.gif" alt="">
+    </div>
+
+    <!-- 
+      nav bar
+     -->
     <nav>
-      <div class="nav-container">
+      <div class="nav-container ">
         <img src="./Images/web/EL LOGO.png" alt="" style="padding-right: 30px;"/>
         <ul class="nav-menu">
           <li>
@@ -207,13 +219,13 @@
 
 
     <div class="container">
-      <div class="container__left">
+      <div class="container__left hiddenx">
         <h1>Welcome To <br><span style="color: #fc0061;">East-Link</span><br>Engineering</h1>
         <div class="container__btn">
           <button class="btn">Know More</button>
         </div>
       </div>
-      <div class="container__right">
+      <div class="container__right hiddenx">
         <div class="images">
           <img src="./Images/web/istockphoto-1334004294-612x612.jpg" alt="tent-1" class="tent-1" />
           <img src="./Images/web/istockphoto-2080855674-612x612.jpg" alt="tent-2" class="tent-2" />
@@ -232,7 +244,7 @@
         <span><i class="ri-map-pin-2-fill"></i></span>
         OUR LOCATION
       </div>
-      <div class="socials">
+      <div class="socials hiddenx">
         <span>
           <h4>Follow Us On :</h4>
         </span>
@@ -251,11 +263,22 @@
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="./JavaScript/main.js"></script>
     <script src="./JavaScript/script.js"></script>
-
+    <script src="./JavaScript/animation.js"></script>
     <!-- 
       sweet alert
      -->
      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+     <!-- 
+      pre loader scripts
+      -->
 
+      <script>
+        const preloader = document.getElementById("data-preloader");
+  
+        window.addEventListener("load" , () => {
+            preloader.classList.add("remove");
+        });
+  
+       </script>
   </body>
 </html>

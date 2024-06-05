@@ -52,6 +52,7 @@ body {
 .container__left {
   padding-inline: 1rem;
   text-align: center;
+  transition-delay: 100ms;
 }
 
 .container__left h1 {
@@ -80,6 +81,7 @@ body {
   isolation: isolate;
   display: grid;
   gap: 2rem;
+  transition-delay: 200ms;
 }
 
 .container__right::before {
@@ -192,6 +194,7 @@ body {
   display: flex;
   align-items: center;
   gap: 10px;
+  transition-delay: 100ms;
 }
 
 .socials a {
