@@ -120,6 +120,7 @@ body {
   transform: translateX(1rem);
   border-radius: 1rem;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+
 }
 
 .tent-2 {
@@ -127,6 +128,7 @@ body {
   transform: translateX(-1rem);
   border-radius: 1rem;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+
 }
 
 .content {
