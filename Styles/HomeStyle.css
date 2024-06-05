@@ -34,61 +34,9 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-.nav__header {
-  padding: 1rem;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: var(--text-dark);
-}
 
-.nav__logo a {
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: var(--white);
-}
 
-.nav__menu__btn {
-  font-size: 1.5rem;
-  color: var(--white);
-  cursor: pointer;
-}
 
-.nav__links {
-  position: absolute;
-  top: 60px;
-  left: 0;
-  width: 100%;
-  padding: 2rem;
-  list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 2rem;
-  background-color: var(--text-dark);
-  transition: 0.5s;
-  z-index: -1;
-  transform: translateY(-100%);
-}
-
-.nav__links.open {
-  transform: translateY(0);
-}
-
-.nav__links a {
-  font-weight: 600;
-  color: var(--primary-color);
-}
-
-.nav__links a:hover {
-  color: var(--white);
-}
-
-.nav__btns {
-  display: none;
-}
 
 .container {
   max-width: var(--max-width);
@@ -143,7 +91,7 @@ body {
   width: 0;
   transform-origin: left;
   height: 80%;
-  background-color: var(--primary-color);
+  background-color: #9b9b9b;
   border-radius: 1rem;
   z-index: -1;
 

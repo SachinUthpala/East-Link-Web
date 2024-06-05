@@ -30,9 +30,6 @@ body{
 
 /* end of animation */
 
-nav{
-	position: sticky;
-}
 
 
 a {
@@ -58,12 +55,9 @@ li {
 }
 
 
-
-
 nav {
 	background: #ffffff;
 	height: 80px;
-	position: relative;
 }
 nav .toggle-navbar {
 	cursor: pointer;

@@ -31,7 +31,21 @@ toggleNavbar.addEventListener('click', function () {
 })
 
 
-
+function goLocation() {
+	Swal.fire({
+		title: "Are you sure?",
+		text: "Do you Want to see us on Map ?",
+		icon: "warning",
+		showCancelButton: true,
+		confirmButtonColor: "#19A519",
+		cancelButtonColor: "#d33",
+		confirmButtonText: "Yes, see on Map!"
+	  }).then((result) => {
+		if (result.isConfirmed) {
+			location.href='https://maps.app.goo.gl/bS5K4JQY2hXx56Ui9';
+		}
+	  });
+}
 
 
 
