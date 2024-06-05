@@ -206,6 +206,18 @@ body {
 
 
 
+
+.latestProducts{
+  max-width: var(--max-width);
+  height: 80vh;
+  margin: auto;
+  padding: 5rem 0;
+  display: grid;
+  overflow: hidden;
+  text-align: center;
+}
+
+
 @media (width > 768px) {
   nav {
     position: static;
