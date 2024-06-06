@@ -97,6 +97,9 @@ nav .nav-menu > li > a {
 nav .nav-menu > li:hover > a {
 	color: var(--blue);
 }
+
+
+
 nav .nav-menu > li > a .bx {
 	transition: all .3s ease;
 }
@@ -234,6 +237,8 @@ nav .nav-menu > li .dropdown-menu .right-section .dropdown-links li a:hover p {
 
 }
 
+
+
 @media screen and (max-width: 576px) {
 
 	nav .nav-menu > li .dropdown-menu .left-section {
@@ -307,3 +312,7 @@ nav .nav-menu > li .dropdown-menu .right-section .dropdown-links li a:hover p {
 		max-width: 330px;
 	}
 }
+
+
+
+
