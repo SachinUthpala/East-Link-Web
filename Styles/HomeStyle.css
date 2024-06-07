@@ -219,7 +219,7 @@ body {
 
 .latestProducts h1{
   font-size: 35px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   font-weight: 800;
 }
 
@@ -231,14 +231,13 @@ body {
 .latest-porducs{
 	align-items: center;
 	text-align: center;
-	margin: 60px;
+	margin: 60px 10px;
 }
 
 .producs{
 	margin-top: 30px;
-	display: grid;
-	grid-template-columns: repeat(4 , 270px);
-	gap: 50px;
+	display: flex;
+	gap: 10px;
 }
 
 .producs .item{
