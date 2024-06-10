@@ -228,7 +228,7 @@ body {
 }
 
 /* products */
-.latest-porducs{
+/* .latest-porducs{
 	align-items: center;
 	text-align: center;
 	margin: 60px;
@@ -291,7 +291,7 @@ body {
 
 .item:nth-child(4){
   transition-delay: 250ms;
-}
+} */
 
 
 
@@ -359,12 +359,12 @@ body {
     text-align: left;
   }
 
-  .producs{
+  /* .producs{
     margin-top: 30px;
     display: grid;
     grid-template-columns: repeat(2 , 270px);
     gap: 50px;
-  }
+  } */
 
   
 }
@@ -372,12 +372,12 @@ body {
 
 @media screen and (max-width: 576px) {
 
-  .producs{
+  /* .producs{
     margin-top: 30px;
     display: flex;
     flex-direction: column;
     gap: 20px;
-  }
+  } */
 
 }
 
