@@ -497,27 +497,7 @@ body {
   background-color: rgba(0,0,0,0.8);
 }
 
-/* our vison and mission */
-.vison{
-  margin-top: 50px;
-  padding: 20px 30px;
-}
 
-.vison .visions{
-  display: flex;
-  flex-direction: row;
-  align-items: baseline;
-  gap: 20px;
-}
-
-
-.vison .visions h1{
-  font-size: 25px;
-}
-
-.vison .visions p{
-  font-size: 20px;
-}
 
 @media (width > 768px) {
   nav {
