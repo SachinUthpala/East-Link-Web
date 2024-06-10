@@ -312,7 +312,18 @@ body {
   color: #2c2724a4;
 }
 
+.product-items{
+  margin-top: 28px;
+  display: grid;
+  grid-template-columns: repeat(4 , 250px);
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
 
+.product-items .item{
+  
+}
 
 
 @media (width > 768px) {
