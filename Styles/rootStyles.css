@@ -56,3 +56,17 @@
     transform: translateX(0);
   }
   
+
+  .hiddenUp {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(100%);
+    transition: all 2s;
+  }
+  
+  .showUp {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0)
+  }
+  
