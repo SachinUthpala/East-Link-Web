@@ -295,6 +295,24 @@ body {
 
 
 
+/*products */
+.products{
+  margin-top: 50px;
+  padding: 20px 30px;
+  text-align: center;
+}
+
+.products h1{
+  margin-top: 25px 0px;
+  font-size: 38px;
+}
+
+.products p{
+  font-size: 16px;
+  color: #2c2724a4;
+}
+
+
 
 
 @media (width > 768px) {
