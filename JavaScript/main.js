@@ -67,3 +67,10 @@ ScrollReveal().reveal(".socials span", {
   interval: 500,
 });
 
+
+
+
+
+// js for image slider
+
+

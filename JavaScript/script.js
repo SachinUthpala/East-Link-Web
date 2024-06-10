@@ -49,6 +49,39 @@ function goLocation() {
 
 
 
+// js for slider
+
+let slideIndex = 0;
+
+function showSlides() {
+    let slides = document.querySelectorAll('.slide');
+    slides.forEach((slide, index) => {
+        slide.style.transform = `translateX(${-slideIndex * 100}%)`;
+    });
+}
+
+function changeSlide(direction) {
+    let slides = document.querySelectorAll('.slide');
+    slideIndex += direction;
+
+    if (slideIndex >= slides.length) {
+        slideIndex = 0;
+    } else if (slideIndex < 0) {
+        slideIndex = slides.length - 1;
+    }
+
+    showSlides();
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    showSlides();
+    setInterval(() => {
+        changeSlide(1);
+    }, 10000); // Change image every 3 seconds
+});
+
+
+
 
 
 
